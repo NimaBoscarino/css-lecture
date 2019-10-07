@@ -1,0 +1,47 @@
+nav {
+    color: green;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+html {
+    background: #DAE0E6;
+}
+
+span {
+    background: red;
+}
+
+h1 {
+    display: inline-block;
+    color: purple;
+}
+
+button {
+    /* margin-left: 350px; */
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 1 element  ---> 001 */
+article {
+    box-sizing: border-box;
+    font-size: 25px;
+    background: pink;
+    box-shadow: 0 0 5px 2px magenta;
+    height: 10%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;	
+}
+
+/* 1 element and 1 class ---> 011 */
+article.special {
+    background: red;
+}
